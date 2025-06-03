@@ -1,0 +1,273 @@
+[25/06/22][GIT]
+
+Git <-- Desktop App
+Gihub <-- Web App
+- MS 인수
+- Github enterprise 기업전용 < 사내시스템, 예전버전
+
+Github 가입후 로그인
+
+
+repository = 문서
+
+repo.
+repo. 리포 / 레포
+
+repo 저장한다, 넣는다
+ = commit
+
+Remote repository
+Local repository
+
+upload : push
+download : pull
+
+change - 유지보수
+
+github web app...
+- 개발자들이 협업하는데 도와주는 툴들의 모음
+- IDE
+remote repo 제공해주는 서비스이다. (X)
+
+https://gist.github.com/dudalss-moon/d89cda354af6e103aa2b585a9ed3cf6a
+
+JIRA
+confluence 기능 도 제공
+
+젠킨스 대용
+Actions
+-> 자동배포 자동테스트
+
+팀실습할 때 git push 안될 때
+시작 > 자격증명
+
+git 목적-버전관리
+1. 버전관리
+   공유폴더사용대신, 소스코드들을버전별로관리
+2. 동료와함께하나의프로젝트를개발
+   git의 Branch ~ Merge 기능 사용
+3. 자동백업된코드복원
+   과거소스코드로되돌아가기
+
+github 목적- 협업
+1. git처럼 버전관리 가능
+2. 서버에소스코드저장
+   로컬컴퓨터가아닌, 원격서버에소스코드를안전하게저장
+3. 원격협업
+   Issue(ticket) Open : 여러 사람에게 작업요청 / 질문 / 버그리포트 / 기능 추가 가능
+   코드리뷰: 업로드한소스코드에대해토론
+
+<정리>
+git은 Local 저장소에 버전별 문서를 관리하는 프로그램이다.
+ 문서버전관리
+ 컴퓨터 포맷되면 소스코드 사라짐
+github은 Remote 저장소를 제공하는 Web Application이며,
+ 협업하는 용도로 사용됨
+ git에서 저장된 내용 모두 github에 업로드(push)하여 안전하게 저장
+ remote 저장소 제공
+ Issue 관리 / 코드리뷰
+
+"GUI Shell"
+ - "Windows shell"
+"CLI Shell"
+  명령 프롬프트
+  PowerShell
+
+Linux
+
+
+글자기반 GLI
+ - git bash
+
+ GUI 프로그램으로 왕
+- 아틀라시안 제품 SourceTree (전부 기능 사용 가능)
+- Github Desktop (일부 기능 사용)
+
+Untracked files <--- 관리안하고 있는 파일 (신규파일)
+
+git status
+git Int
+git status
+git add .
+git status
+git commit -m "hi"
+git status
+git log
+
+
+개념
+git add
+내부 원리
+Staging Area 에
+
+
+GUI - 보기좋아요, 까먹지 않아요
+단점 : 느려요.
+
+CLI : 100ms 충분 즉각
+장점 : 20년전에 학습
+지금도 계속, 앞으로도 계속
+단점 :
+ git diff <--- GUI
+ git graph 복잡 <---
+
+ 파일 기반
+ CLI, GUI 동시 켜 놔도 동기화 잘 됨.
+
+
+<git과 Gihub 연동>
+1. Local Repo에서 생성하고 git 에 반영
+2. remote와 연동
+ User@DESKTOP-5FBE16T MINGW64 /c/work/step5
+$ git init
+Initialized empty Git repository in C:/work/step5/.git/
+
+User@DESKTOP-5FBE16T MINGW64 /c/work/step5 (master)
+$ git add .
+
+User@DESKTOP-5FBE16T MINGW64 /c/work/step5 (master)
+$ git commit -m "first"
+[master (root-commit) c4c526c] first
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+User@DESKTOP-5FBE16T MINGW64 /c/work/step5 (master)
+$
+
+User@DESKTOP-5FBE16T MINGW64 /c/work/step5 (master)
+$ git remote add origin https://github.com/dudalss-moon/remote-4323.git
+
+User@DESKTOP-5FBE16T MINGW64 /c/work/step5 (master)
+$
+
+User@DESKTOP-5FBE16T MINGW64 /c/work/step5 (master)
+$ git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 220 bytes | 220.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/dudalss-moon/remote-4323.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+User@DESKTOP-5FBE16T MINGW64 /c/work/step5 (master)
+$
+
+
+무료 이미지
+https://pixabay.com/
+
+
+Pull Request
+
+Comment
+Submit general feedback without explicit approval.
+
+Approve
+Pull request authors can’t approve their own pull request.
+
+Request changes
+Pull request authors can’t request changes on their own pull request.
+
+
+1) Git clone
+2) Git (CLI) branch 생성
+3) 생성한 branch로 checkout
+4) txt 생성
+5) commit & push
+
+
+
+Working Directory
+Staging Area
+Local Repo.
+Remote Repo.
+Stage
+git add
+git commit -m
+git log
+git status
+untracked files
+changes
+git config
+git init
+push
+pull
+
+
+
+SW공학
+- 품질은 유지하면서 SW비용 낮추는 것 목표
+- 사업가 중심 만들어진 이론
+
+Agile 왜할까?
+-
+
+SW 회사를 운영
+대표기획
+- 개발 시작
+- 디자이너 대표기획
+
+개발
+- 디자인
+- 개발 대기
+
+검증인원 대기
+ 검증
+
+ 대표자 대기 끝나고
+ 만들어진 것을 최종 평가
+
+
+ Agile
+  - 문서 최소 미팅은 짧고
+  - 동작되는 SW
+
+방법론
+ - Scrum 왕
+ - XP (극단적인 프로그래밍)
+
+모든 임직원분들의 하고 있는 업무가 다 공개
+
+Daily 어디까지
+어제 똑같으면
+왜 똑같지? 인원을 더 붙여줄게
+
+
+RED -> GREEN => BLUE
+ToDo List
+       Check
+                Refactoring
+
+TDD -> 품질
+품질 더 좋아져요
+팀원 15명
+개발실력
+
+TDD
+Output 더 안전한
+유지보수
+
+핵심로직 TDD 협의
+
+TDD
+일이 더 많다
+필요한 일이다.
+비용이 된다면 꼭 필요하다
+
+UnitTest 만들기 어려운 모듈
+- 포기
+- 모듈 대역
+
+TDD 1일차 : GIT 개요
+TDD 2일차 : TDD KATA 연습
+TDD 3일차 : Mocking (Mokito) + TDD
+TDD 4일차 : TDD 배웠던 것ㄷㄹ + 팀실습
+
+TDD 개요
+ - 테스트 먼저 만든다
+ - Baby Step
+ - Red : TDOD
+ - Green : 면죄부
+ - Refactor : Green
