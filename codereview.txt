@@ -205,6 +205,15 @@ github 목적- 협업
    Issue(ticket) Open : 여러 사람에게 작업요청 / 질문 / 버그리포트 / 기능 추가 가능
    코드리뷰: 업로드한소스코드에대해토론
 
+<정리>
+git은 Local 저장소에 버전별 문서를 관리하는 프로그램이다.
+ 문서버전관리
+ 컴퓨터 포맷되면 소스코드 사라짐
+github은 Remote 저장소를 제공하는 Web Application이며,
+ 협업하는 용도로 사용됨
+ git에서 저장된 내용 모두 github에 업로드(push)하여 안전하게 저장
+ remote 저장소 제공
+ Issue 관리 / 코드리뷰
 
 "GUI Shell"
  - "Windows shell"
