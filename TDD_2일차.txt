@@ -1,0 +1,27 @@
+오늘 TDD KATA
+
+1. Prime Factor
+> 점진적인 방법으로 TDD 완성
+
+2. Baseball KATA
+> 보폭 넓어요.
+> Exception
+{Precondition Check / Logic()}
+
+3. 유사도 검사 KATA(직접 TDD, 본인 보폭 TDD)
+
+BabyStep
+
+Exception() --> 반드시 try catch로 감싸야 에러가 안남
+RuntimeException() --> 안감싸도 됨.
+
+예상치 못한 경우에는 throw RuntimeException
+예상 가능하면 Exception
+
+
+happyskygang
+jae1-shin
+ingyuseo
+dorururu
+magicers3531
+interjw
