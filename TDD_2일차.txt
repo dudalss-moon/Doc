@@ -25,3 +25,15 @@ ingyuseo
 dorururu
 magicers3531
 interjw
+
+
+TDD 
+
+private 어떻게 테스트합니까?
+
+1. public 변경 private
+
+2. private 테스트 생량
+   public에서 호출되어 검증 된 것으로 간주
+
+
