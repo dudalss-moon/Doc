@@ -98,9 +98,10 @@ git log
 개념
 git add
 내부 원리
-Staging Area 에
-
-
+Staging Area에 올리는 것을 “Stage 하다” 라고 한다
+ 신중하게 Local Repo (.git)에 저장하기 위한 단계
+ 캐쉬역할을한다.
+ 
 GUI - 보기좋아요, 까먹지 않아요
 단점 : 느려요.
 
