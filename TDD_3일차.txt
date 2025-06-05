@@ -28,3 +28,48 @@ TDD 실무용
  -> 일반화된 코드로 개발 (Green 단계)
  -> 가독성 좋은 코드로 리팩토링 (Refactor 단계)
 
+SUT 
+테스트 하려는데
+ - 느리거나
+ - 의존 복잡도
+ - 외부 의존
+ - 등등 
+-> 대역 쓰는 것을 
+
+원본 테스트 힘들 때 (선호도 원본 > Fake > Mock)
+1. Fake (ex. 시뮬레이터, 운영 DB를 대체하는 DB) -> 우선 순위가 높으나 만들기 어렵다.
+2. Mock Object
+
+Test Double 이론 정립 안되었어요.
+동네마다 달라요.
+마틴파울러 - 블로그 정리 (이거 위주로 수업)
+
+5가지 
+- 더미 (Dummy)
+- 스텁(Stub) (ex. 심심할때 심심이)
+  스텁을 건다 : 3, 3 -> 9999 리턴해 ~ 세팅
+- 스파이(Spy)
+  실제 객체와 완전 동일하게 동작. 스텁 기능도 있다. Behavior(해동) 검증도 가능하다
+  잘 사용 안함 (???????
+- 목 (Mock)
+  가장 많이 사용. 기본
+
+Stubbing
+ ▪ A 값을 Parameter로 넣으면, B 값이 return 되도록 세팅
+Behavior Verification
+ ▪ Test 종료 후, 특정 메서드가 동작 되었는지 검증 가능
+ ▪ 호출횟수/ 순서대로 호출 여부 등 확인 가능
+
+Unit Test 를 시작해야 TDD를 할 수 있어요.
+UT 만들기 어려운 모듈
+- SUT 하위 모듈이 느리거나, API, 복잡하거나 할 때
+  Mock
+
+Mock 단점
+리팩토링 할 때 UnitTest 를 계속 관리해 줘야 한다.
+
+
+    // https://mvnrepository.com/artifact/org.assertj/assertj-core
+    testImplementation("org.assertj:assertj-core:3.27.3")
+    // https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter
+    testImplementation("org.mockito:mockito-junit-jupiter:5.18.0")
