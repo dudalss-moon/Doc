@@ -41,3 +41,22 @@ Mocking
      상태검증이어 함.
    목킹보다 Fake가 더 좋음
 
+
+< 이론 정리 >
+
+클린코드
+- 가독성 / 유지보수성 좋은 구조(OOP) / 안전성
+- 독자 위주로 코드를 세심하게, 디테일
+- 객체지향스러운 코드 모듈화
+- 안정성 - 예측성, Side Effect, 계약의 의한 프로그래밍
+
+리팩토링
+- KATA
+  Converage UI 디테일 살리기
+  모듈화, SOLID, 디자인패턴
+
+TDD
+- Git 정리 PR 코드리뷰어 마음가짐
+- TDD 개요, TDD KATA
+- Mocking Test Double Device Driver
+- 총 복습 - 좋은 UT, 팀 협업 하나의 Application
