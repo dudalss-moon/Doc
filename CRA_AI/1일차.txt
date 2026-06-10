@@ -7,3 +7,34 @@ https://pro.mincoding.co.kr/
 
 
 
+Agentic Engineering
+
+AI / 사람 
+
+7:3
+
+VibeCoding : BlackBox, 속도 ↑
+AE : Orchestration, 검토 / 계획 
+
+구현/초안은 AI 가 검토는 사람이
+
+Explore -> Plan -> Action -> Commit
+        검토    검토      검토
+사람이 AI가 낸 산출물을 검토해야 함.
+
+Explore : 진행해야 하는 내용을 이해, 구조이해
+SPEC.md
+PRD.md
+CLAUDE.md
+
+Plan : 설계 
+PLAN.md
+DESIGN.md
+Phase{#}.md
+
+Action : 점진적으로 구현하도록 Phase별로
+Phase{#}.md 를 점진적으로 개발
+
+문서와 코드는 동기화(Sync)가 되어야 함
+
+산출물들이 리뷰할 수 있어야 함.
